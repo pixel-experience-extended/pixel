@@ -6,7 +6,12 @@
           revision="pie"
           review="gerrit.pixelexperience.org" />
 
-  <remote name="pixel-devices"
+  <remote name="pixel-caf"
+          fetch="https://github.com/PixelExperience"
+          revision="pie-caf"
+          review="gerrit.pixelexperience.org" />         
+  
+<remote name="pixel-devices"
           fetch="https://github.com/PixelExperience-Devices"
           revision="pie" />
 
@@ -17,19 +22,13 @@
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="pixel" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="hardware_qcom_audio-caf_msm8952" revision="pie" remote="pixel" />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt-caf" revision="pie" remote="pixel" />
-  <project path="hardware/qcom/display-caf/msm8952" name="hardware_qcom_display-caf_msm8952" revision="pie" remote="pixel" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="pixel" />
-  <project path="hardware/qcom/media-caf/msm8952" name="hardware_qcom_media-caf_msm8952" revision="pie" remote="pixel" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="pixel" />
-  <project path="hardware/ril-caf" name="hardware_ril-caf" revision="pie" remote="pixel" />
   <project path="system/qcom" name="system_qcom" remote="pixel" />
-  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pixel" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="pixel" />
 
   <!-- External repos -->
-  <project path="external/perfetto" name="external_perfetto" remote="pixel" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
 
   <!-- Framework repos -->
@@ -55,7 +54,6 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="build/kati" name="build_kati" remote="pixel" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
@@ -69,9 +67,7 @@
   <project path="hardware/custom/telephony" name="hardware_custom_telephony" remote="pixel" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
-  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="pixel" />
   <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="pixel" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="pixel" />
   <project path="hardware/ril" name="hardware_ril" remote="pixel" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
 

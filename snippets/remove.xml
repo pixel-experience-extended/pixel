@@ -119,7 +119,6 @@
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
   <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/hardware/ril" />
 
   <!-- Packages repos -->
   <remove-project name="platform/packages/apps/Bluetooth" />
