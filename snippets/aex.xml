@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="aex"
+          fetch="https://github.com/AospExtended"
+          revision="9.x"
+
+<project path="system/qcom" name="platform_system_qcom" groups="pdk" remote="aex"  />

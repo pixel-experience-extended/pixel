@@ -12,6 +12,7 @@
   <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" revision="lineage-16.0-caf-8996" remote="lineage" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" revision="lineage-16.0-caf" remote="lineage" />
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" revision="lineage-16.0-caf-8996" remote="lineage" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" revision="lineage-16.0-caf-8996" remote="lineage" />
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" revision="lineage-16.0-caf" remote="lineage" />
@@ -56,4 +57,6 @@
 
   <!-- System Repos -->
   <project path="system/tools/hidl" name="android_system_tools_hidl" remote="lineage" />
+  <project path="system/bt" name="android_system_bt" remote="lineage" />
+  <project path="system/security" name="android_system_security" remote="lineage" />
 </manifest>
